@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante La Especialidad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <h1 class="logo">🍖⚡ El Banquete de Thor ⚡🍖</h1>
+        <nav class="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#menu">Menú</a>
+            <a href="#contacto">Contacto</a>
+            <button id="theme-toggle" class="theme-btn">🌓</button>
+            <span id="cart-counter" class="cart-counter">0</span>
+            <span >🛒</span>
+        </nav>
+    </header>
+
+    <!-- Sección de Bienvenida -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h2>🍖⚡El Banquete de Thor ⚡🍖</h2>
+            <p>¡Bienvenidos a El Banquete de Thor, el salón de festines donde solo los más valientes y hambrientos se atreven a entrar! Inspirado en los gloriosos banquetes de Asgard, nuestro restaurante ofrece un festín digno de dioses, héroes y guerreros.
+
+                Aquí encontrarás mesas de roble colosales, iluminadas por antorchas y candelabros dorados, mientras el eco de canciones épicas y brindis resonantes llena el aire. Nuestro menú es un tributo a la mitología nórdica, con carnes asadas al fuego de la forja, hidromiel espumosa servida en cuernos dorados y postres que podrían tentar hasta a Loki.
+                
+                Prepárate para una experiencia gastronómica legendaria, donde cada bocado es un canto de victoria y cada sorbo, un brindis por la gloria eterna. ¡Levanta tu jarra y únete al festín! SKÁL! 🍻⚡</p>
+        </div>
+    </section>
+
+    <!-- Sección del Menú -->
+    <section class="menu-section" id="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="filters">
+            <input type="text" id="search" placeholder="Buscar platos...">
+            <button class="filter-btn active" data-category="all">Todos</button>
+            <button class="filter-btn" data-category="entradas">Entradas</button>
+            <button class="filter-btn" data-category="platos">Platos Fuertes</button>
+            <button class="filter-btn" data-category="postres">Postres</button>
+            <button class="filter-btn" data-category="bebidas">Bebidas</button>
+        </div>
+        
+        <div class="menu-grid" id="menu-items">
+            <!-- Los elementos del menú se generarán dinámicamente con JavaScript -->
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer" id="contacto">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Contacto</h3>
+                <p>📍 Av. Principal 123, Ciudad</p>
+                <p>📞 +1 234 567 890</p>
+                <p>✉️ info@laespecialidad.com</p>
+            </div>
+            <div class="social">
+                <h3>Síguenos</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
