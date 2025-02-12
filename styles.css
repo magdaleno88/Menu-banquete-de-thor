@@ -5,7 +5,7 @@
     --bg-color: #18202b;
     --card-bg: #010512;
     --wood: url('https://www.transparenttextures.com/patterns/purty-wood.png');
-    --paper: url('//www.transparenttextures.com/patterns/clean-gray-paper.png');
+    --paper: url('https://www.transparenttextures.com/patterns/exclusive-paper.png');
     --metal: url('https://www.transparenttextures.com/patterns/brushed-alum.png');
 }
 
@@ -30,6 +30,10 @@ body {
     background: var(--wood);
     background-color: var(--bg-color);
     color: var(--text-color);
+}
+
+a {
+    color: inherit; 
 }
 
 .header {
@@ -61,14 +65,22 @@ body {
 
 .hero {
     height: 60vh;
+    font-size: large;
+    font-weight: bold;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/hero.jpg') center/cover;
+    background-color: #8B5A2B;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    border: 20px ridge #bd8803;
+    margin: 80px 20px 20px ;
     padding-left: 20px;
     padding-right: 20px;
+    box-shadow: inset 2px 2px 6px rgba(255, 255, 255, 0.1),
+                inset -2px -2px 6px rgba(0, 0, 0, 0.7),
+                4px 4px 10px rgba(0, 0, 0, 0.6);
+    filter: sepia(20%) contrast(120%);
 }
 
 
