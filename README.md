@@ -14,9 +14,6 @@ JavaScript → Funcionalidad de filtros y efectos dinámicos.
 
 🚀 Instalación y uso
 Clona el repositorio:
-bash
-Copiar
-Editar
 git clone https://github.com/tu-usuario/el-banquete-de-thor.git
 Abre el archivo index.html en un navegador.
 ¡Disfruta de la experiencia culinaria mágica!
